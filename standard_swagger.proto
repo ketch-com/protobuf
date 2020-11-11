@@ -6,14 +6,14 @@ option (grpc.gateway.protoc_gen_swagger.options.openapiv2_swagger) = {
         title: "$$SERVICENAME$$";
         version: "$$SERVICEVERSION$$";
         contact: {
-            name: "Switchbit";
-            url: "https://www.switchbit.com/";
-            email: "api@switchbit.com";
+            name: "Ketch";
+            url: "https://www.ketch.com/";
+            email: "api@ketch.com";
         };
     };
 
     external_docs: {
-        url: "https://switchbit.confluence.com/switchbit";
+        url: "https://ketch.confluence.com/ketch";
         description: "More about $$SERVICENAME$$";
     }
 
